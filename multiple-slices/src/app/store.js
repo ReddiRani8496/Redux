@@ -4,7 +4,7 @@ import cartReducer from "../features/cartSlice";
 
 export const store = configureStore({
   reducer: {
-    auth: authReducer, // Accessible via state.auth
-    cart: cartReducer, // Accessible via state.cart
+    auth: authReducer,
+    cart: cartReducer,
   },
 });
